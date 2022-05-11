@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:organico_app/screens/home_page.dart';
+import 'package:organico_app/screens/detail_pages/home_page.dart';
+import 'package:organico_app/screens/registration_pages/splash_screen.dart';
 
 void main() {
+  
   runApp(const MyApp());
 }
 
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: const SplashScreen(),
     );
   }
 }

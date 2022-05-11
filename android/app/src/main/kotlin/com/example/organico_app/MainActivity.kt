@@ -1,4 +1,4 @@
-package com.example.organico_app
+package com.shodmonov.organico_app
 
 import io.flutter.embedding.android.FlutterActivity
 
