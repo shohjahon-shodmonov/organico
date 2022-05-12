@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:organico_app/screens/bottom_nav_page.dart';
 import 'package:organico_app/screens/registration_pages/signin_page.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -16,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => const SignInPage(),
+          builder: (context) => const BottomNavBar(),
         ),
       );
     });
